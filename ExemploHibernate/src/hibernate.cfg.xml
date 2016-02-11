@@ -26,8 +26,8 @@
 		<property name="use_sql_comments">true</property>
 		--> 	
 		
-		<!-- Mapeando classes -->
-		<mapping resource="com/livro/capitulo3/crudxml/Contato.hbm.xml"/>	
+		<!-- Mapeando classes 
+		<mapping resource="com/livro/capitulo3/crudxml/Contato.hbm.xml"/>	-->
 		<mapping class="com.livro.capitulo3.crudannotations.ContatoAnnotations"/>
 	</session-factory>
 </hibernate-configuration>
